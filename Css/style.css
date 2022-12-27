@@ -1,0 +1,275 @@
+/*----------------------------------------------------------nav bar-------- */
+nav h1 {
+  margin-right: 100px;
+}
+nav .nav-item {
+  font-size: 20px;
+  font-weight: 400;
+  color: #070707;
+  margin: 0 5px;
+}
+nav .icon {
+  font-size: 22px;
+  font-weight: 600;
+  color: #070707;
+  margin: 0 240px;
+}
+/*----------------------------- -------------------------start header ------- */
+.mySlides {
+  display: none;
+}
+
+.main {
+  display: block;
+}
+
+.headerImg {
+  vertical-align: middle;
+  height: 650px;
+}
+
+img {
+  display: inline-block;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/**************************************************** Slideshow container */
+.slideshow-container {
+  position: relative;
+}
+
+.direction {
+  margin: auto;
+  margin-top: 25px;
+}
+
+.next {
+  float: right;
+}
+.btns {
+  margin-left: 330px;
+}
+/*************************************************** Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 25px;
+  color: #484848 !important;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index: 2;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #f7f0f4b3;
+  color: white !important;
+}
+
+/******************************************************************* body text */
+.headerText {
+  position: absolute;
+  z-index: 2;
+  top: 25%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.headerText p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.headerText img {
+  width: 300px;
+}
+
+.about .content p {
+  font-size: 21px;
+}
+
+/* ------------------------------------ --------------------------start filter ------ */
+.filter .nav-link {
+  color: #484848;
+  background-color: #d7d4d6;
+}
+.active {
+  background-color: #6b94cc !important ;
+  color: #fff !important;
+}
+
+.filter .cardImg {
+  height: 322px;
+  overflow: hidden;
+}
+.filter .card-img-top {
+  height: 100%;
+}
+.filter h2 {
+  font-size: 37px;
+  font-weight: 700;
+  color: #151515;
+}
+
+.filter .nav-link {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin: 0 10px;
+  padding: 7px 30px;
+}
+
+.filter h5 {
+  color: #111;
+  font-size: 1.1em;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.filter p {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #484848;
+}
+
+.filter .price {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.filter .btn {
+  background-color: #6b94cc;
+  color: white;
+  font-size: 18px;
+}
+
+/****************************************************************** footer */
+footer {
+  position: relative;
+  width: 100%;
+  padding: 40px 10vw;
+  padding-bottom: 80px;
+  background: #383838;
+}
+
+.footer-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer-content .logo {
+  height: 160px;
+}
+
+.footer-ul-container {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  width: 200px;
+  list-style: none;
+}
+
+.category-title {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.category .footer-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+.footer-title,
+.info {
+  color: rgba(255, 255, 255, 0.75);
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+
+.footer-title {
+  margin-top: 80px;
+  color: #fff;
+}
+
+.footer-social-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+  display: inline;
+}
+.social-links a:hover {
+  background-color: wheat;
+  padding: 5px;
+}
+
+.footer-credit {
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+}
+.copyright p {
+  color: wheat;
+}
+.p1 {
+  color: wheat;
+}
+.main-footer .top {
+  background-color: #6b94cc;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #6b94cc;
+  font-size: 19px;
+}
+/****************************************************************** fro from  */
+#pname i {
+    color:green;
+}
+#pemail i {
+  color:green;
+}
+#ptele i {
+  color: green;
+}
+#pmessage i{
+  color: green;
+}
